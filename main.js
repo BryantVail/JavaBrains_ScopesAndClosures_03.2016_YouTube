@@ -2,7 +2,7 @@ var first = 'bry';
 var last = 'vail';
 
 
-namePrint(first, last);//executed before the definition
+namePrint(first, last);//executed before the definition on line 7
 
 function namePrint(first, last){
 
