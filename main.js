@@ -1,8 +1,18 @@
-var name = 'bry';
- 
-if(name){
-    var last = 'vail';
-}//same scope as outside of 'if' statement
+var first = 'bry';
+var last = 'vail';
 
-console.log(`${name}`);
-console.log(`is a ${last}`);
+
+namePrint(first, last);//executed before the definition
+
+function namePrint(first, last){
+
+    if(first && last){
+        var lastN = last;
+    }//same scope as outside of 'if' statement
+
+    console.log(`${first}`);
+    console.log(`is a ${lastN}`);
+}
+
+
+
