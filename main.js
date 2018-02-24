@@ -1,12 +1,7 @@
+var name = 'Bryant Vail';
 
-add();
+function printGreeting(name){
+    console.log(`Hello ${name}.`);
+}//end printGreeting
 
-function add(num1, num2){
-    var a = 10;
-    var b = 10;
-    
-    console.log(a+b);
-
-}
-
-
+printGreeting("OtherName");
