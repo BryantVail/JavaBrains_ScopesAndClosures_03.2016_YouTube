@@ -1,10 +1,4 @@
-var top = 10;
-var inner = 50;//global, not used in 'foo'
+var a = 10;
+var b = 10;
 
-function foo(){
-    var inner = 20;
-    
-}//end foo
-
-foo();
-console.log(inner);
+console.log(a+b);
