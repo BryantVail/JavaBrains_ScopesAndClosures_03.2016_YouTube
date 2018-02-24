@@ -14,5 +14,7 @@ function namePrint(first, last){
     console.log(`is a ${lastN}`);
 }
 
+//console.log(lastN); lastN is not defined
+
 
 
